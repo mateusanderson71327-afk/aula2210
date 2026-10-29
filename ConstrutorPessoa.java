@@ -1,0 +1,24 @@
+package Aula_construtor;
+
+public class ConstrutorPessoa {
+
+	public static void main(String[] args) {
+		
+		Pessoa jogador1 = new Pessoa();
+		Pessoa jogador2 = new Pessoa("Messi",36);
+		
+		jogador1.setNome("Ronaldo");
+		jogador1.setIdade(40);
+		
+		
+		System.out.println(jogador2.getNome());
+		System.out.println(jogador2.getIdade());
+		
+		System.out.println(jogador1.getNome());
+		System.out.println(jogador1.getIdade());
+		
+		
+
+	}
+
+}
